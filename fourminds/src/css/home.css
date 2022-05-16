@@ -17,6 +17,7 @@
 }
 
 .contenedor1{
+    flex-direction: column;
     background-color: white;
 }
 
@@ -55,14 +56,63 @@
 }
 .imageDummy{
     width: 200px;
-    height: 200px;
     background-color: pink;
-    margin: 3em;
+    margin: 2em;
 }
-
+.nameTransport{
+    margin-bottom: 1em;
+}
 .typeServicesList{
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin-top: 2em;
+}
+
+.cotizacion{
+    background-color: #F7C873;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+.cotizacion .form-label{
+    float: left;
+}
+
+.cotizacion .input{
+    margin-bottom: 1em;
+}
+
+.inputClass{
+    width: 100% !important;
+    height: unset !important;
+}
+
+.btnCotizar{
+    width: 80%;
+}
+
+.dropdown-toggle{
+    width: 100%;
+    color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+}
+.dropdown-toggle.btn-primary{
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    color: rgb(33, 37, 41)    ;
+    text-align: left;
+}
+.dropdown-toggle::after{
+    vertical-align: middle !important;
+    margin-left: 2em !important;
+}
+
+@media (max-width: 768px) {
+    .padding60{
+        padding-left: 2em;
+        padding-right: 2em;
+    }
 }
